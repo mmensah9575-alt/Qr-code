@@ -1,0 +1,132 @@
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html >
+<head>
+
+  <title>Blog Card</title>
+
+<style>
+.p{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+/* Centering */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+.card {
+  background: white;
+  width: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid black;
+  box-shadow: 8px 8px 0px black;
+}
+
+/* Image */
+.card-img {
+  width: 100%;
+}
+
+/* Content */
+.card-content {
+  padding: 20px;
+}
+
+/* Tag */
+.tag {
+  background: #f4d04e;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Date */
+.date {
+  font-size: 12px;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Title */
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Author */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author span {
+  font-weight: bold;
+  font-size: 14px;
+}
+</style>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <img src="pic/screenshot.png" alt="Article Image" class="card-img">
+
+      <div class="card-content">
+        <span class="tag">Learning</span>
+        <p class="date">Published 21 Dec 2023</p>
+
+        <h2>HTML & CSS foundations</h2>
+
+        <p class="description">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+
+        <div class="author">
+          <img src="pic/micytdp_profile.jpg" alt="Author">
+          <span>Greg Hooper</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
